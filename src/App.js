@@ -23,6 +23,7 @@ export default function App() {
     cart: []
   });
 
+  // eslint-disable-next-line react-hooks/exhaustive-deps
   const fetchData = async () => {
     const fetchedData = await fetch(keyWord ? `${api}/search?q=${keyWord}` : `${api}`);
     const data = await fetchedData.json();
