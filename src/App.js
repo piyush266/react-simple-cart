@@ -34,7 +34,7 @@ export default function App() {
 
   useEffect(() => {
     fetchData();
-  }, [keyWord]);
+  }, [keyWord, fetchData]);
 
   return (
     <>
