@@ -39,7 +39,6 @@ export default function App() {
 
   return (
     <>
-      <div className="hello"></div>
       <div style={{marginLeft: "14px", marginRight: "60px"}}>
         <input style={{width: "80%", padding: "10px"}} type="search" placeholder="Search Product" onChange={(e) => searchProduct(e.target.value)}></input>
       </div>
